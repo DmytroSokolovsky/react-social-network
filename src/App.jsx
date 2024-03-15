@@ -54,13 +54,12 @@ const App = (props) => {
 					}
 				>
 					<Routes>
-						<Route path="/" element={<Navigate to={"/dialogs"} />} />
-						{/* <Route path="/" element={<Navigate to={"/profile"} />} /> */}
+						<Route path="/" element={<Navigate to={"/profile"} />} />
 						<Route path="/login" element={<LoginPage />} />
-						{/* <Route
+						<Route
 							path="/profile/:userId?"
 							element={<ProfileContainer />}
-						/> */}
+						/>
 						<Route path="/dialogs" element={<DialogsContainer />} />
 						<Route path="/users" element={<UsersContainer />} />
 						<Route path="/news" element={<News />} />
