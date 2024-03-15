@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/442.e74f43f3.chunk.js","mappings":"2IAEA,MAIA,EAJcA,IACNC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,Q","sources":["components/News/News.jsx"],"sourcesContent":["import classes from \"./News.module.css\";\r\n\r\nconst News = (props) => {\r\n\treturn <div>News</div>;\r\n};\r\n\r\nexport default News;\r\n"],"names":["props","_jsx","children"],"sourceRoot":""}
