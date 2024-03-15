@@ -5,6 +5,7 @@ import {
 	Routes,
 	Route,
 	Navigate,
+	HashRouter,
 } from "react-router-dom";
 import { useEffect } from "react";
 import { connect } from "react-redux";
@@ -15,6 +16,7 @@ import store from "./redux/redux-store.js";
 import Nav from "./components/Nav/Nav";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import Error from "./components/Error/Errror";
+
 const DialogsContainer = React.lazy(() =>
 	import("./components/Dialogs/DialogsContainer")
 );
@@ -83,11 +85,11 @@ let AppContainer = connect(mapStateToProps, {
 
 let MainApp = (props) => {
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<HashRouter>
 			<Provider store={store}>
 				<AppContainer />
 			</Provider>
-		</Router>
+		</HashRouter>
 	);
 };
 
