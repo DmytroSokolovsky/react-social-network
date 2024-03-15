@@ -1,0 +1,24 @@
+.content__image {
+	position: relative;
+	height: 384px;
+}
+
+.content__image img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+.content__description {
+}
+
+.mainPhoto {
+	max-width: 200px;
+}
+
+.contact {
+	padding-left: 20px;
+}

@@ -1,0 +1,32 @@
+.aside {
+	grid-area: aside;
+	background-color: rgb(152, 152, 250);
+	padding: 20px;
+}
+
+.aside__body {
+}
+
+.aside__menu {
+}
+
+.menuaside {
+}
+
+.menuaside__list {
+}
+
+.menuaside__list li {
+	margin: 0px 0px 10px 0px;
+}
+
+.menuaside__link {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+.menuaside__activeLink {
+	text-decoration: underline;
+	color: rgb(144, 53, 53);
+}
